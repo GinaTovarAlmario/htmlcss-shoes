@@ -23,7 +23,7 @@ h1{
     font-size: xx-large;
     font-weight: 800;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     text-align: center;
     translate: -50% -50%;
@@ -41,10 +41,13 @@ h1{
 }
 .full-page{
     height: 100vh;
-    background-size: contain;
-    background-position:center;
+    background-size: 50%;
+    background-position:50% 40%;
     background-repeat: no-repeat;
     position: relative;
+}
+.title{
+    width: 50%;
 }
 /*diversi tipi di scarpe*/
 #sportif{
