@@ -6,13 +6,23 @@
 }
 /*Generics*/
 body{
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family:'Rubik Mono One', sans-serif;
 }
 header{
     position: fixed;
 }
 ul{
     list-style-type: none;
+}
+h1{
+    font-size: xx-large;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    translate: -50% -50%;
+}
 }
 /*utils*/
 .container{
@@ -25,6 +35,8 @@ ul{
     background-position:center;
     background-repeat: no-repeat;
     background-image: url(../img/01.png);
+    position: relative;
+
 }
 
 .red{
