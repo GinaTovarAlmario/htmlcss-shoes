@@ -10,6 +10,15 @@ body{
 }
 header{
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: rgb(213, 27, 185);
+    border: 2px dashed white;
+}
+main{
+    margin-top: 50px;
 }
 ul{
     list-style-type: none;
@@ -23,22 +32,29 @@ h1{
     text-align: center;
     translate: -50% -50%;
 }
-}
+
 /*utils*/
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
 .full-page{
-    height: 100vh;
+    height: calc(100vh - 50px);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    background-image: url(../img/01.png);
     position: relative;
-
 }
-
+/*diversi tipi di scarpe*/
+#sportif{
+    background-image: url(../img/01.png);
+}
+#tommy{
+    background-image: url(../img/02.png);
+}
+#converse{
+    background-image: url(../img/03.png);
+}
 .red{
     color: #ff0;
     background-color: red;
